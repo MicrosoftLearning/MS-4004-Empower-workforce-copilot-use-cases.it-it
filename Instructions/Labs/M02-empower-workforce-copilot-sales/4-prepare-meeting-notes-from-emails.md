@@ -1,0 +1,40 @@
+
+# Preparare le note delle riunioni dai messaggi di posta elettronica usando Microsoft 365 Business Chat
+---
+Nell'attuale panorama aziendale dinamico, una comunicazione efficace è fondamentale per mantenere un vantaggio competitivo. Mentre il personale di vendita si orienta in un vasto mare di informazioni, Business Chat si rivela un potente strumento per semplificare la comunicazione. All'interno di Teams, Business Chat offre una panoramica rapida ed efficiente delle discussioni principali, garantendo che gli utenti restino informati senza sentirsi sopraffatti.
+
+Quando si pensa a Microsoft Teams, di solito si pensa alla chat di Teams. Tuttavia, usando Microsoft 365 Copilot, l'esperienza in Teams può focalizzarsi non solo sulla chat, ma anche sulla posta elettronica e sui dati delle riunioni di Outlook. Questo avviene tramite due funzionalità di Copilot disponibili in Teams:
+
+ -  **Microsoft 365 Copilot in Teams**. Questa funzionalità di Copilot consente di accedere a una conversazione specifica aperta. Tuttavia, non accede ai dati dell'organizzazione all'esterno di Teams. Quando si apre una conversaione di chat, selezionare l'icona **Copilot** nell'angolo superiore destro della pagina della chat per aprire il riquadro **Copilot** per tale conversazione. Microsoft 365 Copilot in Teams consente di ottenere rapidamente informazioni sulla velocità e sintetizzare rapidamente le informazioni chiave in tutte le conversazioni di chat di Teams. Quando si apre una conversazione di chat in Teams, Copilot recupera le informazioni dalla conversazione di chat fino a 30 giorni prima.
+ -  **Business Chat in Teams**. Questa funzionalità di Copilot accede a tutte le esperienze di Chat di Teams E alla posta elettronica e alle riunioni da Outlook. Usa la chat basata su Microsoft Graph per accedere ai dati di Teams e Outlook. Per usare questa funzionalità, selezionare l'opzione Copilot visualizzata nella parte superiore del riquadro Chat. In questo modo si apre una pagina Copilot all'interno di Teams.
+
+Questo esercizio si concentra su Business Chat all'interno di Teams, in particolare sulla funzionalità che consente di accedere ai dati di Teams e Outlook. È progettato per semplificare i vari aspetti del lavoro in Microsoft Teams collaborando con gli utenti e fornendo suggerimenti e consigli in base al contesto del proprio lavoro.
+
+In questo esercizio di training, verrà usato Business Chat per riassumere le e-mail, le riunioni e le chat relative a un argomento reale dell'ambiente di lavoro. Quando Business Chat riassume i dati in questo modo, accede all'intero tenant di Microsoft 365 per raccogliere le informazioni.
+
+### Esercizio
+
+In qualità di responsabile vendite dell'organizzazione, pensare a un progetto reale a cui si è partecipato negli ultimi 30 giorni. Si riceve un numero quasi infinito di e-mail, senza contare tutte le riunioni e le discussioni virtuali a cui si prende parte. Ci si sente un po' sopraffatti e si fa fatica a ricordare tutti i punti chiave trattati nelle diverse comunicazioni. Se solo esistesse uno strumento di intelligenza artificiale in grado di sintetizzare l'intera cronologia delle comunicazioni e fornire un riepilogo conciso di tutte le attività di un determinato thread. E poi si accende la lampadina.
+
+Si ricorda di aver sentito parlare di una nuova funzionalità di Business Chat aggiunta a Microsoft Teams. È in grado di esaminare tutte le attività di comunicazione sia in Outlook che in Teams, fornire un riepilogo di queste attività e identificare gli elementi di azione di cui si è responsabili. Si decide di sfruttare questa nuova funzionalità di Microsoft 365 Copilot per risparmiare il tempo e l'impegno necessari a rivedere manualmente tutte le attività di comunicazione.
+
+Eseguire i seguenti passaggi di Business Chat all'interno di Teams per sintetizzare le comunicazioni relative a una discussione reale a cui si partecipa. Allo stesso tempo, è previsto l'uso della procedura consigliata di "iterare, iterare, iterare", approfondendo ulteriormente questi elementi.
+
+1.  È necessario esaminare le discussioni sia nella Posta in arrivo di Outlook sia nella Chat di Teams per individuare un argomento o un nome di progetto presente sia nelle e-mail che nelle chat. Verrà immesso il nome dell'argomento o del progetto nella richiesta che verrà effettuata in Microsoft 365 Copilot nel passaggio successivo.
+2.  In **Microsoft Teams**, selezionare **Copilot** nella parte superiore del riquadro Chat. In questo modo si apre una finestra **Copilot**.
+3.  Nella finestra **Copilot**, immettere il seguente testo nella richiesta in fondo alla pagina. Sostituire "argomento/progetto a scelta" con il nome scelto nel primo passaggio, quindi selezionare l'icona **Invia**.
+    
+    **Riepilogare tutte le e-mail, riunioni e chat degli ultimi 30 giorni relative a \{argomento/progetto a scelta\}**.
+4.  Non appena Copilot avrà riepilogato queste informazioni, sarà necessario esaminare le opzioni che appariranno sopra il campo della richiesta, relative all'elenco riassuntivo di e-mail, riunioni e chat. Selezionare una delle opzioni per consultare la risposta di Copilot.
+5.  Se sopra la richiesta vengono visualizzate altre opzioni correlate all'opzione selezionata in precedenza, selezionare una di queste opzioni. Durante i passaggi successivi, prestare particolare attenzione alle richieste predefinite che appariranno in questa sezione e osservare come cambiano dopo ogni richiesta. Potrebbero generare una domanda o un'azione a cui non si era mai pensato in precedenza.
+6.  Ora si vuole conoscere le azioni di cui si è responsabili, in base all'elenco di e-mail, riunioni e chat raccolte da Copilot. Immettere la richiesta seguente e selezionare l'icona **Invia**:
+    
+    **In base alle informazioni sintetizzate dalle mie e-mail, riunioni e chat, crea un elenco delle azioni di cui sono responsabile**.
+7.  Esaminare l'elenco degli elementi. Sebbene questo elenco di azioni rappresenti un buon punto di partenza, si ritiene che Copilot possa rendere le informazioni ancora più utili classificando le azioni in base alla loro priorità. Immettere la richiesta seguente e selezionare l'icona **Invia**:
+    
+    **Classificare questi elementi di azione in base all'ordine di importanza**.
+8.  È consigliabile esaminare la risposta di Copilot. Mentre tenta di classificare gli elementi, "ordine di importanza" può essere un filtro soggettivo che può variare a seconda del contesto e delle priorità specifiche del progetto. Ora che si sa come Copilot fa fatica con richieste soggettive come "ordine di importanza", queste conoscenze possono essere d'aiuto nelle richieste future. In che modo? Conoscere questa limitazione di Copilot può impedire di perdere tempo chiedendo di completare le attività che non è in grado di risolvere in modo adeguato. Infatti, quando si usa questa conoscenza nelle richieste future, si sta implementando una delle tecniche di richiesta effettive acquisite durante il training precedente - **Comprendere le limitazioni di Copilot**.
+9.  Dato questi risultati, l'utente decide di seguire un'altra procedura consigliata: ** iterare, iterare, iterare**. Invece di elencare gli elementi di azione in base all'ordine di importanza, che Copilot non può eseguire sufficientemente, l'utente decide di concentrarsi sugli elementi di azione correlati a una persona, una riunione o un argomento specifico di importanza per l'utente. Immettere il prompt seguente e sostituire \{persona/riunione/nome dell'argomento scelto\} con il nome della persona, della riunione o dell'argomento su cui vuoi concentrarti per primo:
+    
+    **In tutti gli elementi di azione trovati, quali riguardano \{nome di persona/riunione/argomento\}** scelto?
+10. È consigliabile esaminare l'elenco di elementi di azione forniti da Copilot. Se si desidera, porre a Copilot eventuali altre domande o indirizzarlo per completare qualsiasi altra attività che potrebbe essere di interesse per l'utente correlato a questo progetto o argomento.
